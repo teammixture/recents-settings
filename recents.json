@@ -1,12 +1,13 @@
 {
-   "displayItems":10,
+   "displayItems":20,
    "projectTypes":[
       {
          "projectType":"grunt",
-         "nameKey":"name",
+         "nameRegex":"['""]name['""]:\\s*['""](.*?)['""]$",
+         "settingsFile": "package.json",
          "image":"grunt.png",
          "keyFile":"package.json",
-         "foldersExistInRoot":null,
+         "projectRootBasedOnKeyFile": null,
          "filesExistInRoot":[
             "Gruntfile",
             "package.json"
@@ -36,9 +37,11 @@
       },
       {
          "projectType":"node",
-         "nameKey":"name",
+         "nameRegex":"['""]name['""]:\\s*['""](.*?)['""]$",
+         "settingsFile": "package.json",
          "image":"node.png",
          "keyFile":"package.json",
+         "projectRootBasedOnKeyFile": null,
          "foldersExistInRoot":null,
          "filesExistInRoot":[
             "package.json"
@@ -72,10 +75,11 @@
       },
       {
          "projectType":"mixture",
-         "nameKey":"projectName",
+         "nameKey":"['""]projectName['""]:\\s*['""](.*?)['""]$",
+         "settingsFile": "mixture.json",
          "image":"mixture.png",
          "keyFile":"mixture.json",
-         "foldersExistInRoot":null,
+         "projectRootBasedOnKeyFile": null,
          "filesExistInRoot":[
             "mixture.json"
          ],
@@ -111,6 +115,70 @@
                "alpha":255
             }
          }
+      },
+      { 
+         "projectType":"wordpress",
+         "nameKey":"Theme Name:\\s*(.*?)$",
+         "settingsFile": "style.css",
+         "image":"wordpress.png",
+         "keyFile":"functions.php",
+         "projectRootBasedOnKeyFile": null,
+         "filesExistInRoot": null,
+         "watchFor":[
+            "*.js",
+            "*.css",
+            "*.php"
+         ],
+         "ignoreIfFilesInRoot":null,
+         "ignoreIfPathContains":null,
+         "button1":{
+            "name":"Editor",
+            "app":"Sublime Text 2",
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":"iTerm",
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":"Finder",
+            "arguments":""
+         },
+         "button4":null
+      },
+      { 
+         "projectType":"statamic",
+         "nameKey":"_site_name:\\s*(.*?)$",
+         "settingsFile": "_app/config/default.settings.yaml",
+         "image":"statamic.png",
+         "keyFile":"statamic.php",
+         "projectRootBasedOnKeyFile": "../../../",
+         "filesExistInRoot": null,
+         "watchFor":[
+            "*.js",
+            "*.css",
+            "*.php"
+         ],
+         "ignoreIfFilesInRoot":null,
+         "ignoreIfPathContains":null,
+         "button1":{
+            "name":"Editor",
+            "app":"Sublime Text 2",
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":"iTerm",
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":"Finder",
+            "arguments":""
+         },
+         "button4":null
       }
    ]
 }
