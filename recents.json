@@ -161,7 +161,7 @@
          "settingsFile": "_app/config/default.settings.yaml",
          "image":"statamic.png",
          "keyFile":"statamic.php",
-         "projectRootRelativeToKeyFile": "../../../",
+         "projectRootRelativeToKeyFile": "../../",
          "filesExistInRoot": null,
          "watchFor":[
             "*.js",
