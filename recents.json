@@ -7,7 +7,7 @@
          "settingsFile": "package.json",
          "image":"grunt.png",
          "keyFile":"package.json",
-         "projectRootBasedOnKeyFile": null,
+         "projectRootRelativeToKeyFile": null,
          "filesExistInRoot":[
             "Gruntfile",
             "package.json"
@@ -41,7 +41,7 @@
          "settingsFile": "package.json",
          "image":"node.png",
          "keyFile":"package.json",
-         "projectRootBasedOnKeyFile": null,
+         "projectRootRelativeToKeyFile": null,
          "foldersExistInRoot":null,
          "filesExistInRoot":[
             "package.json"
@@ -79,7 +79,7 @@
          "settingsFile": "mixture.json",
          "image":"mixture.png",
          "keyFile":"mixture.json",
-         "projectRootBasedOnKeyFile": null,
+         "projectRootRelativeToKeyFile": null,
          "filesExistInRoot":[
             "mixture.json"
          ],
@@ -129,7 +129,7 @@
          "settingsFile": "style.css",
          "image":"wordpress.png",
          "keyFile":"functions.php",
-         "projectRootBasedOnKeyFile": null,
+         "projectRootRelativeToKeyFile": null,
          "filesExistInRoot": null,
          "watchFor":[
             "*.js",
@@ -161,7 +161,7 @@
          "settingsFile": "_app/config/default.settings.yaml",
          "image":"statamic.png",
          "keyFile":"statamic.php",
-         "projectRootBasedOnKeyFile": "../../../",
+         "projectRootRelativeToKeyFile": "../../../",
          "filesExistInRoot": null,
          "watchFor":[
             "*.js",
