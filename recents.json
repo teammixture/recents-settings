@@ -85,7 +85,14 @@
          ],
          "watchFor":[
             "*.js",
-            "*.css"
+            "*.css",
+            "*.liquid",
+            "*.sass",
+            "*.scss",
+            "*.styl",
+            "*.less",
+            "*.json",
+            "*.coffee"
          ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":null,
