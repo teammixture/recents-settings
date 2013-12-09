@@ -75,7 +75,7 @@
       },
       {
          "projectType":"mixture",
-         "nameKey":"['""]projectName['""]:\\s*['""](.*?)['""]$",
+         "nameRegex":"['""]projectName['""]:\\s*['""](.*?)['""]$",
          "settingsFile": "mixture.json",
          "image":"mixture.png",
          "keyFile":"mixture.json",
@@ -118,7 +118,7 @@
       },
       { 
          "projectType":"wordpress",
-         "nameKey":"Theme Name:\\s*(.*?)$",
+         "nameRegex":"Theme Name:\\s*(.*?)$",
          "settingsFile": "style.css",
          "image":"wordpress.png",
          "keyFile":"functions.php",
@@ -150,7 +150,7 @@
       },
       { 
          "projectType":"statamic",
-         "nameKey":"_site_name:\\s*(.*?)$",
+         "nameRegex":"_site_name:\\s*(.*?)$",
          "settingsFile": "_app/config/default.settings.yaml",
          "image":"statamic.png",
          "keyFile":"statamic.php",
