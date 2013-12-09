@@ -3,7 +3,7 @@
    "projectTypes":[
       {
          "projectType":"grunt",
-         "nameRegex":"['""]name['""]:\\s*['""](.*?)['""]$",
+         "nameRegex":"['\"]name['\"]:\\s*['\"](.*?)['\"]$",
          "settingsFile": "package.json",
          "image":"grunt.png",
          "keyFile":"package.json",
@@ -37,7 +37,7 @@
       },
       {
          "projectType":"node",
-         "nameRegex":"['""]name['""]:\\s*['""](.*?)['""]$",
+         "nameRegex":"['\"]name['\"]:\\s*['\"](.*?)['\"]$",
          "settingsFile": "package.json",
          "image":"node.png",
          "keyFile":"package.json",
@@ -75,7 +75,7 @@
       },
       {
          "projectType":"mixture",
-         "nameRegex":"['""]projectName['""]:\\s*['""](.*?)['""]$",
+         "nameRegex":"['\"]projectName['\"]:\\s*['\"](.*?)['\"]$",
          "settingsFile": "mixture.json",
          "image":"mixture.png",
          "keyFile":"mixture.json",
