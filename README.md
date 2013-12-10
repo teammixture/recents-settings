@@ -5,9 +5,12 @@ This is the default settings file for recents the Mac status bar application, if
 
 Keep in mind, a user can edit their own file and so this file is only added on install or if they delete their current settings.
 
-### Currently support project types
+### Currently supported project types
 
 - Mixture
 - Node
 - Grunt
 - Statamic
+- Wordpress
+
+* This list should be updated as new projects are added to the default json
