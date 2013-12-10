@@ -12,17 +12,6 @@
             "Gruntfile",
             "package.json"
          ],
-         "watchFor":[
-            "*.js",
-            "*.css",
-            "*.html",
-            "*.json",
-            "*.sass",
-            "*.scss",
-            "*.less",
-            "*.styl",
-            "*.coffee"
-         ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":[
             "node_modules"
@@ -63,10 +52,6 @@
          "foldersExistInRoot":null,
          "filesExistInRoot":[
             "package.json"
-         ],
-         "watchFor":[
-            "*.js",
-            "*.css"
          ],
          "ignoreIfFilesInRoot":[
             "Gruntfile"
@@ -109,20 +94,6 @@
          "projectRootRelativeToKeyFile":null,
          "filesExistInRoot":[
             "mixture.json"
-         ],
-         "watchFor":[
-            "*.js",
-            "*.css",
-            "*.liquid",
-            "*.sass",
-            "*.scss",
-            "*.styl",
-            "*.less",
-            "*.json",
-            "*.coffee",
-            "*.html",
-            "*.haml",
-            "*.md"
          ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":null,
@@ -172,11 +143,6 @@
          "keyFile":"functions.php",
          "projectRootRelativeToKeyFile":null,
          "filesExistInRoot":["style.css"],
-         "watchFor":[
-            "*.js",
-            "*.css",
-            "*.php"
-         ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":null,
          "button1":{
@@ -213,12 +179,6 @@
          "keyFile":"statamic.php",
          "projectRootRelativeToKeyFile":"../../",
          "filesExistInRoot":null,
-         "watchFor":[
-            "*.js",
-            "*.css",
-            "*.php",
-            "*.html"
-         ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":null,
          "button1":{
