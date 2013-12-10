@@ -14,7 +14,14 @@
          ],
          "watchFor":[
             "*.js",
-            "*.css"
+            "*.css",
+            "*.html",
+            "*.json",
+            "*.sass",
+            "*.scss",
+            "*.less",
+            "*.styl",
+            "*.coffee"
          ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":[
@@ -94,7 +101,10 @@
             "*.styl",
             "*.less",
             "*.json",
-            "*.coffee"
+            "*.coffee",
+            "*.html",
+            "*.haml",
+            "*.md"
          ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":null,
@@ -168,7 +178,8 @@
          "watchFor":[
             "*.js",
             "*.css",
-            "*.php"
+            "*.php",
+            "*.html"
          ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":null,
