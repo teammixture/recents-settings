@@ -29,17 +29,26 @@
          ],
          "button1":{
             "name":"Editor",
-            "app":"Sublime Text 2",
+            "app":[
+               "Sublime Text 3",
+               "Sublime Text 2",
+               "Brackets"
+            ],
             "arguments":""
          },
          "button2":{
             "name":"Terminal",
-            "app":"iTerm",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
             "arguments":""
          },
          "button3":{
             "name":"Finder",
-            "app":"Finder",
+            "app":[
+               "Finder"
+            ],
             "arguments":""
          },
          "button4":null
@@ -67,17 +76,26 @@
          ],
          "button1":{
             "name":"Editor",
-            "app":"Sublime Text 2",
+            "app":[
+               "Sublime Text 3",
+               "Sublime Text 2",
+               "Brackets"
+            ],
             "arguments":""
          },
          "button2":{
             "name":"Terminal",
-            "app":"iTerm",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
             "arguments":""
          },
          "button3":{
             "name":"Finder",
-            "app":"Finder",
+            "app":[
+               "Finder"
+            ],
             "arguments":""
          },
          "button4":null
@@ -110,22 +128,33 @@
          "ignoreIfPathContains":null,
          "button1":{
             "name":"Editor",
-            "app":"Sublime Text 2",
+            "app":[
+               "Sublime Text 3",
+               "Sublime Text 2",
+               "Brackets"
+            ],
             "arguments":""
          },
          "button2":{
             "name":"Terminal",
-            "app":"iTerm",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
             "arguments":""
          },
          "button3":{
             "name":"Finder",
-            "app":"Finder",
+            "app":[
+               "Finder"
+            ],
             "arguments":""
          },
          "button4":{
             "name":"Run",
-            "app":"Mixture",
+            "app": [
+               "Mixture"
+            ],
             "arguments":"",
             "color":{
                "red":131,
@@ -152,17 +181,26 @@
          "ignoreIfPathContains":null,
          "button1":{
             "name":"Editor",
-            "app":"Sublime Text 2",
+            "app":[
+               "Sublime Text 3",
+               "Sublime Text 2",
+               "Brackets"
+            ],
             "arguments":""
          },
          "button2":{
             "name":"Terminal",
-            "app":"iTerm",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
             "arguments":""
          },
          "button3":{
             "name":"Finder",
-            "app":"Finder",
+            "app":[
+               "Finder"
+            ],
             "arguments":""
          },
          "button4":null
@@ -185,17 +223,26 @@
          "ignoreIfPathContains":null,
          "button1":{
             "name":"Editor",
-            "app":"Sublime Text 2",
+            "app":[
+               "Sublime Text 3",
+               "Sublime Text 2",
+               "Brackets"
+            ],
             "arguments":""
          },
          "button2":{
             "name":"Terminal",
-            "app":"iTerm",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
             "arguments":""
          },
          "button3":{
             "name":"Finder",
-            "app":"Finder",
+            "app":[
+               "Finder"
+            ],
             "arguments":""
          },
          "button4":null
