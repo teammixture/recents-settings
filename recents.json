@@ -3,11 +3,11 @@
    "projectTypes":[
       {
          "projectType":"grunt",
-         "nameRegex":"['\"]name['\"]:\\s*['\"](.*?)['\"]$",
-         "settingsFile": "package.json",
+         "nameRegex":"['\"]name['\"]\\s*:\\s*['\"](.*?)['\"]\\s*,\\s*$",
+         "settingsFile":"package.json",
          "image":"grunt.png",
          "keyFile":"package.json",
-         "projectRootRelativeToKeyFile": null,
+         "projectRootRelativeToKeyFile":null,
          "filesExistInRoot":[
             "Gruntfile",
             "package.json"
@@ -37,11 +37,11 @@
       },
       {
          "projectType":"node",
-         "nameRegex":"['\"]name['\"]:\\s*['\"](.*?)['\"]$",
-         "settingsFile": "package.json",
+         "nameRegex":"['\"]name['\"]\\s*:\\s*['\"](.*?)['\"]\\s*,\\s*$",
+         "settingsFile":"package.json",
          "image":"node.png",
          "keyFile":"package.json",
-         "projectRootRelativeToKeyFile": null,
+         "projectRootRelativeToKeyFile":null,
          "foldersExistInRoot":null,
          "filesExistInRoot":[
             "package.json"
@@ -75,11 +75,11 @@
       },
       {
          "projectType":"mixture",
-         "nameRegex":"['\"]projectName['\"]:\\s*['\"](.*?)['\"]$",
-         "settingsFile": "mixture.json",
+         "nameRegex":"['\"]projectName['\"]\\s*:\\s*['\"](.*?)['\"]\\s*,\\s*$",
+         "settingsFile":"mixture.json",
          "image":"mixture.png",
          "keyFile":"mixture.json",
-         "projectRootRelativeToKeyFile": null,
+         "projectRootRelativeToKeyFile":null,
          "filesExistInRoot":[
             "mixture.json"
          ],
@@ -123,14 +123,14 @@
             }
          }
       },
-      { 
+      {
          "projectType":"wordpress",
          "nameRegex":"Theme Name:\\s*(.*?)$",
-         "settingsFile": "style.css",
+         "settingsFile":"style.css",
          "image":"wordpress.png",
          "keyFile":"functions.php",
-         "projectRootRelativeToKeyFile": null,
-         "filesExistInRoot": null,
+         "projectRootRelativeToKeyFile":null,
+         "filesExistInRoot":null,
          "watchFor":[
             "*.js",
             "*.css",
@@ -155,14 +155,14 @@
          },
          "button4":null
       },
-      { 
+      {
          "projectType":"statamic",
          "nameRegex":"_site_name:\\s*(.*?)$",
-         "settingsFile": "_app/config/default.settings.yaml",
+         "settingsFile":"_app/config/default.settings.yaml",
          "image":"statamic.png",
          "keyFile":"statamic.php",
-         "projectRootRelativeToKeyFile": "../../",
-         "filesExistInRoot": null,
+         "projectRootRelativeToKeyFile":"../../",
+         "filesExistInRoot":null,
          "watchFor":[
             "*.js",
             "*.css",
