@@ -293,13 +293,17 @@
          "image":"android.png",
          "keyFile":"AndroidManifest.xml",
          "projectRootRelativeToKeyFile": null,
-         "filesExistInRoot": null,
+         "filesExistInRoot": [
+            "AndroidManifest.xml"
+         ],
          "ignoreIfFilesInRoot": null,
          "ignoreIfPathContains":[
             "bin",
             "gen",
             "out",
-            "libs"
+            "libs",
+            "debug",
+            "release"
          ],
          "button1":{
             "name":"Editor",
