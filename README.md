@@ -13,7 +13,6 @@ Keep in mind, a user can edit their own file and so this file is only added on i
 - Wordpress
 - Statamic
 - Laravel
-- Rails
 - Grails
 - Android
 
