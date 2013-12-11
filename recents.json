@@ -57,7 +57,8 @@
             "Gruntfile"
          ],
          "ignoreIfPathContains":[
-            "node_modules"
+            "node_modules",
+            "components"
          ],
          "button1":{
             "name":"Editor",
