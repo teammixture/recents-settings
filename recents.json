@@ -285,6 +285,45 @@
             "arguments":""
          },
          "button4":null
+      },
+      {
+         "projectType":"android",
+         "nameRegex":"^android:name=\"(.*?)\"$",
+         "settingsFile":"AndroidManifest.xml",
+         "image":"android.png",
+         "keyFile":"AndroidManifest.xml",
+         "projectRootRelativeToKeyFile": null,
+         "filesExistInRoot": null,
+         "ignoreIfFilesInRoot": null,
+         "ignoreIfPathContains":[
+            "bin",
+            "gen",
+            "out",
+            "libs"
+         ],
+         "button1":{
+            "name":"Editor",
+            "app":[
+               "Android Studio",
+               "Eclipse"
+            ],
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":[
+               "Terminal"
+            ],
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":[
+               "Finder"
+            ],
+            "arguments":""
+         },
+         "button4":null
       }
    ]
 }
