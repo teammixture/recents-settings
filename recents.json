@@ -57,7 +57,8 @@
             "Gruntfile"
          ],
          "ignoreIfPathContains":[
-            "node_modules"
+            "node_modules",
+            "components"
          ],
          "button1":{
             "name":"Editor",
@@ -187,6 +188,42 @@
                "Sublime Text",
                "Sublime Text 2",
                "Coda 2"
+            ],
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":[
+               "Finder"
+            ],
+            "arguments":""
+         },
+         "button4":null
+      },
+      {
+         "projectType":"laravel",
+         "nameRegex":"['\"]name['\"]\\s*:\\s*['\"](.*?)['\"]\\s*,\\s*$",
+         "settingsFile":"composer.json",
+         "image":"laravel.png",
+         "keyFile":"artisan.php",
+         "projectRootRelativeToKeyFile":"../../",
+         "filesExistInRoot":null,
+         "ignoreIfFilesInRoot":null,
+         "ignoreIfPathContains":null,
+         "button1":{
+            "name":"Editor",
+            "app":[
+               "Sublime Text 3",
+               "Sublime Text 2",
+               "Brackets"
             ],
             "arguments":""
          },
