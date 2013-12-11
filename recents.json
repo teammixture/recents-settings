@@ -174,7 +174,7 @@
       {
          "projectType":"statamic",
          "nameRegex":"_site_name:\\s*(.*?)$",
-         "settingsFile":"_app/config/default.settings.yaml",
+         "settingsFile":"_config/settings.yaml",
          "image":"statamic.png",
          "keyFile":"statamic.php",
          "projectRootRelativeToKeyFile":"../../",
