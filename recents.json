@@ -243,6 +243,48 @@
             "arguments":""
          },
          "button4":null
+      },
+      {
+         "projectType":"grails",
+         "nameRegex":"['\"]name['\"]\\s*:\\s*['\"](.*?)['\"]\\s*,\\s*$",
+         "settingsFile":"application.properties",
+         "image":"grails.png",
+         "keyFile":"application.properties",
+         "projectRootRelativeToKeyFile": null,
+         "filesExistInRoot": null,
+         "ignoreIfFilesInRoot": null,
+         "ignoreIfPathContains":[
+            "target",
+            "out",
+            ".grails"
+         ],
+         "button1":{
+            "name":"Editor",
+            "app":[
+               "IntelliJ IDEA 13",
+               "IntelliJ IDEA 12",
+               "IntelliJ IDEA 11",
+               "Eclipse",
+               "Sublime Text 2",
+               "Sublime Text"
+            ],
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":[
+               "Terminal"
+            ],
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":[
+               "Finder"
+            ],
+            "arguments":""
+         },
+         "button4":null
       }
    ]
 }
