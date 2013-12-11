@@ -12,6 +12,7 @@ Keep in mind, a user can edit their own file and so this file is only added on i
 - Grunt
 - Wordpress
 - Statamic
+- Laravel
 
 __This list should be updated as new projects are added to the default json__
 
