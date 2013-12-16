@@ -15,6 +15,7 @@ Keep in mind, a user can edit their own file and so this file is only added on i
 - Laravel
 - Grails
 - Android
+- Brightscript
 
 __This list should be updated as new projects are added to the default json__
 
