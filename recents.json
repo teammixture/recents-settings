@@ -20,6 +20,7 @@
             "name":"Editor",
             "app":[
                "Sublime Text",
+               "Sublime Text 3",
                "Sublime Text 2",
                "Coda 2"
             ],
@@ -345,6 +346,7 @@
          "button1":{
             "name":"Editor",
             "app":[
+               "Sublime Text",
                "Sublime Text 3",
                "Sublime Text 2",
                "Brackets"
