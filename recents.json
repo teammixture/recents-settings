@@ -20,6 +20,7 @@
             "name":"Editor",
             "app":[
                "Sublime Text",
+               "Sublime Text 3",
                "Sublime Text 2",
                "Coda 2"
             ],
@@ -337,14 +338,15 @@
          "keyFile":"manifest",
          "projectRootRelativeToKeyFile":null,
          "filesExistInRoot":[
-			 "manifest", 
-			 "Makefile"
-		 ],
+          "manifest", 
+          "Makefile"
+       ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":null,
          "button1":{
             "name":"Editor",
             "app":[
+               "Sublime Text",
                "Sublime Text 3",
                "Sublime Text 2",
                "Brackets"
