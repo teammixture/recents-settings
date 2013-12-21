@@ -381,9 +381,7 @@
             "footer.php"
          ],
          "ignoreIfFilesInRoot":null,
-         "ignoreIfPathContains":[
-            "node_modules"
-         ],
+         "ignoreIfPathContains":null,
          "button1":{
             "name":"Editor",
             "app":[
