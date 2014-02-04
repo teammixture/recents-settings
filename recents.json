@@ -367,6 +367,44 @@
             "arguments":""
          },
          "button4":null
+      },
+      {
+         "projectType":"ruby",
+         "nameRegex":"_site_name:\\s*(.*?)$",
+         "settingsFile":"config/settings.yml",
+         "image":"ruby.png",
+         "keyFile":"Gemfile",
+         "projectRootRelativeToKeyFile": null,
+         "filesExistInRoot": null,
+         "ignoreIfFilesInRoot": null,
+         "ignoreIfPathContains":[
+            "node_modules"
+         ],
+         "button1":{
+            "name":"Editor",
+            "app":[
+               "Sublime Text",
+               "Sublime Text 2",
+               "Coda 2"
+            ],
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":[
+               "Finder"
+            ],
+            "arguments":""
+         },
+         "button4":null
       }
    ]
 }
