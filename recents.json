@@ -367,6 +367,40 @@
             "arguments":""
          },
          "button4":null
+      },
+      {
+         "projectType":"autotools",
+         "nameRegex":"AC_INIT\\(\\[(.+?)\\]",
+         "settingsFile":"configure.ac",
+         "keyFile":"configure.ac",
+         "image":"autotools.png",
+         "projectRootRelativeToKeyFile":null,
+         "ignoreIfFilesInRoot":null,
+         "button1":{
+            "name":"Editor",
+            "app":[
+               "Sublime Text",
+               "Sublime Text 2",
+               "Coda 2"
+            ],
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":[
+               "Finder"
+            ],
+            "arguments":""
+         },
+         "button4":null
       }
    ]
 }
