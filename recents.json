@@ -337,9 +337,9 @@
          "keyFile":"manifest",
          "projectRootRelativeToKeyFile":null,
          "filesExistInRoot":[
-			 "manifest", 
-			 "Makefile"
-		 ],
+             "manifest",
+             "Makefile"
+         ],
          "ignoreIfFilesInRoot":null,
          "ignoreIfPathContains":null,
          "button1":{
