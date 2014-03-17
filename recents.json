@@ -209,6 +209,42 @@
          "button4":null
       },
       {
+         "projectType":"Jekyll",
+         "nameRegex":"_site_name:\\s*(.*?)$",
+         "settingsFile":"_config.yml",
+         "image":"jekyll.png",
+         "keyFile":"_config.yml",
+         "projectRootRelativeToKeyFile":"/",
+         "filesExistInRoot":null,
+         "ignoreIfFilesInRoot":null,
+         "ignoreIfPathContains":null,
+         "button1":{
+            "name":"Editor",
+            "app":[
+               "Sublime Text",
+               "Sublime Text 2",
+               "Coda 2"
+            ],
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":[
+               "iTerm",
+               "Terminal"
+            ],
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":[
+               "Finder"
+            ],
+            "arguments":""
+         },
+         "button4":null
+      },
+      {
          "projectType":"laravel",
          "nameRegex":"['\"]name['\"]\\s*:\\s*['\"](.*?)['\"]\\s*,\\s*$",
          "settingsFile":"composer.json",
