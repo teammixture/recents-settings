@@ -2,6 +2,44 @@
    "displayItems":20,
    "projectTypes":[
       {
+         "projectType":"django",
+         "nameRegex":"\\s*os\\.environ\\.setdefault\\(\"DJANGO_SETTINGS_MODULE\", \"(.*)\\.settings\"\\)",
+         "settingsFile":"manage.py",
+         "image":"django.png",
+         "keyFile":"manage.py",
+         "projectRootRelativeToKeyFile":null,
+         "filesExistInRoot":[
+            "manage.py"
+         ],
+         "ignoreIfFilesInRoot":null,
+         "ignoreIfPathContains":null,
+         "button1":{
+            "name":"Editor",
+            "app":[
+                "Sublime Text",
+                "Sublime Text 2",
+                "Coda 2"
+            ],
+            "arguments":""
+         },
+         "button2":{
+            "name":"Terminal",
+            "app":[
+                "iTerm",
+                "Terminal"
+            ],
+            "arguments":""
+         },
+         "button3":{
+            "name":"Finder",
+            "app":[
+                "Finder"
+            ],
+            "arguments":""
+          },
+         "button4":null
+      },
+      {
          "projectType":"grunt",
          "nameRegex":"['\"]name['\"]\\s*:\\s*['\"](.*?)['\"]\\s*,\\s*$",
          "settingsFile":"package.json",
