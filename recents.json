@@ -217,7 +217,9 @@
          "projectRootRelativeToKeyFile":"../../",
          "filesExistInRoot":null,
          "ignoreIfFilesInRoot":null,
-         "ignoreIfPathContains":null,
+         "ignoreIfPathContains":[
+            "vendor"
+         ],
          "button1":{
             "name":"Editor",
             "app":[
